@@ -36,11 +36,12 @@ public class MainActivity extends AppCompatActivity {
                     //toast.setGravity(Gravity.TOP | Gravity.LEFT, xOffset, 70);
                     toast.setGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL, 0, 70);
                     toast.show();
+                    break;
                 case R.id.btn_dialog:
                     AlertDialog.Builder dialog = new AlertDialog.Builder(getApplicationContext());
                     dialog.setTitle("알림사항");
                     dialog.setMessage("코로나 확진자 진행상황 입니다.");
-                    dialog.setIcon(R.mipmap.ic_launcher);
+                    dialog.setIcon(R.mipmap.ic_flower2);
                     dialog.setPositiveButton("확인", null);
                     dialog.show();
             }
